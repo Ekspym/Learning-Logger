@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Flurl.Http" Version="4.0.2" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IPodnik.Infrastructure.Core\IPodnik.Infrastructure.Core.csproj" />
+    <ProjectReference Include="..\IPodnik.Infrastructure\IPodnik.Infrastructure.csproj" />
+    <ProjectReference Include="..\IPodnik.MessageBus.Core\IPodnik.MessageBus.Core.csproj" />
+  </ItemGroup>
+
+</Project>
