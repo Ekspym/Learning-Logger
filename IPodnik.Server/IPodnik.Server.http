@@ -1,6 +1,0 @@
-@IPodnik.Server_HostAddress = http://localhost:5047
-
-GET {{IPodnik.Server_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
